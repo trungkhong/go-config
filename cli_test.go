@@ -1,8 +1,9 @@
 package config
 
 import (
-	"github.com/codegangsta/cli"
 	"testing"
+
+	"github.com/urfave/cli"
 )
 
 func TestCLILoad(t *testing.T) {
